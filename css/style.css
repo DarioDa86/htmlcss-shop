@@ -11,9 +11,19 @@
 }
 
 .product {
-    height: 300px;
-    width: calc(100% / 3);
-    background-color: grey;
-    border: 3px solid black;
     display: inline-block;
+    width: calc(100% / 3);
+    padding: 3px;
+}
+
+.product img {
+    width: 100%;
+}
+
+.final-price {
+    color: red;
+}
+
+.original-price {
+    text-decoration: line-through;
 }
